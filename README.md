@@ -7,7 +7,7 @@ While utilizing JavaScript, HTML, and CSS, we are creating a website for Dana to
 ## Results: Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
 Using the different filters, someone should be able to enter filter keywords and the site automatically filters through the data based on the data entered in the search bars. Pictured below is an example of the filter bar.
 
-![Filters.png](url)
+![Filter.png](Pictures/Filter.png)
 
 There is a bug in the code, so unfortunately it will not filter. In theory, however, whenever someone enters information such as a specific city with a specific date or country or other key, the filtering system will read through the data and populate entries based on the filtered data.
 
