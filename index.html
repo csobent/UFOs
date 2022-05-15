@@ -11,14 +11,7 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="static/js/style.css">
-<style>
-     jumbotron {
-        background-image: url("/images/nasa.jpg");
-        background-size: cover;
-        text-align: center;
-    };
-</style>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
     <body class="bg-dark'>
@@ -55,11 +48,24 @@
                     <p>Filter Search</p>
                         <ul class="list-group bg-dark" {style="Arial: inherit; font-size: 1rem;"}>
                             <li class="list-group-item bg-dark" {style="Arial: inherit; font-size: 1rem;"}>
-                                <label for="date">Enter Date</label>
+                                <label for="datetime">Enter Date</label>
                                     <input type="text" placeholder="1/10/2010" id="datetime" />
                             </li>
                             <li class="list-group-item bg-dark" {style="Arial: inherit; font-size: 1rem;"}>
-                                <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                                <label for="city">Enter City</label>
+                                    <input type="text" placeholder="benton" id="city"/>
+                            </li>
+                            <li class="list-group-item bg-dark" {style="Arial: inherit; font-size: 1rem;"}>
+                                <label for="state">Enter State</label>
+                                    <input type="text" placeholder="AR" id="state" />
+                            </li>
+                            <li class="list-group-item bg-dark" {style="Arial: inherit; font-size: 1rem;"}>
+                                <label for="country">Enter Country</label>
+                                    <input type="text" placeholder="US" id="country" />
+                            </li>
+                            <li class="list-group-item bg-dark" {style="Arial: inherit; font-size: 1rem;"}>
+                                <label for="shape">Enter Shape</label>
+                                    <input type="text" placeholder="Circle" id="shape" />
                             </li>
                         </ul> 
                 </form>
